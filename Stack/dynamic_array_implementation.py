@@ -40,9 +40,9 @@ our_stack.push("21")
 our_stack.push("14")
 our_stack.push("31")
 our_stack.push("19")
-our_stack.push("3")  # This should cause "Stack Overflow"
-our_stack.push("99") # This should cause "Stack Overflow"
-our_stack.push("9")  # This should cause "Stack Overflow"
+our_stack.push("3")  # Doubling happened 
+our_stack.push("99")  
+our_stack.push("9")  
 
 print(our_stack.peek())  # Should print the top element
 print(our_stack.pop())   # Should remove and print the top element
